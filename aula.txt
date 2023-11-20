@@ -1,2 +1,2 @@
 aula: 12 validate Token
-minutos: 4:47
+minutos: 11:01
