@@ -5,6 +5,7 @@ import Feed from "../../Feed/Feed";
 import UserPhotoPost from "./UserPhotoPost";
 import UserStats from "./UserStats";
 
+
 const User = () => {
   return (
     <section className="container">
