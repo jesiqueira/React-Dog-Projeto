@@ -18,21 +18,16 @@ function App() {
         <UserStorage>
           <Header />
           <Routes>
-            {/* <Route exact path="/" element={<Home />} />
-            <Route exact path="login/*" element={<Login />} />
-            { <Route exact path="conta/*" element={<User />} /> }
+            <Route path="/" element={<Home />} />
+            <Route path="login/*" element={<Login />} />
             <Route
               path="conta/*"
               element={
-                <React.Fragment>
-                  <ProtectedRoute />
+                <ProtectedRoute>
                   <User />
-                </React.Fragment>
+                </ProtectedRoute>
               }
-            /> */}
-            <Route path="/" element={<Home />} />
-            <Route path="login/*" element={<Login />} />
-            <ProtectedRoute path="conta/*" element={<User />} />
+            />
           </Routes>
           <Footer />
         </UserStorage>
