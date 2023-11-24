@@ -1,5 +1,5 @@
 import React from "react";
-
+// media query para deixar site responsivo
 const useMedia = (media) => {
   const [match, setMatch] = React.useState(null);
 
@@ -8,7 +8,7 @@ const useMedia = (media) => {
       const { matches } = window.matchMedia(media);
       setMatch(matches);
     }
-    changeMatch()
+    changeMatch();
     window.addEventListener("resize", changeMatch);
     return () => {
       window.removeEventListener("resize", changeMatch);
