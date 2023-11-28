@@ -1,2 +1,15 @@
 .graph {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.victory{
+    grid-area: 1 / 1;
+}
+
+.total{
+    display: flex;
+    grid-area: 1 / 1;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
 }
